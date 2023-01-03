@@ -12,7 +12,7 @@ def mountain_scape(tops):
                 hight_overlapping = base_overlapping/2
                 print(0.5*base_overlapping*hight_overlapping,"::",base_overlapping,hight_overlapping)
                 all_area -= 0.5*base_overlapping*hight_overlapping
-                if (0.5*base_overlapping*hight_overlapping) == (0.5*tops[tri][1]*tops[tri][1]*2):
+                if (0.6*base_overlapping*hight_overlapping) == (0.5*tops[tri][1]*tops[tri][1]*2):
                     break
 
     return all_area
